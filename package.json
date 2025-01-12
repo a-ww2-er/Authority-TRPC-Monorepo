@@ -1,0 +1,28 @@
+{
+  "name": "authority-trpc",
+  "version": "1.0.0",
+  "description": "trpc monorepo for management",
+  "private": true,
+  "scripts": {
+    "format": "prettier  \"{apps,libs}/**/*.{ts,tsx,js,json}\" --ignore-path .gitignore",
+    "format:check": "npm run format -- --check",
+    "format:write": "npm run format -- --write",
+    "build": "npx nx run-many -t build",
+    "tsc": "npx nx run-many -t tsc",
+    "lint": "npx nx run-many -t lint",
+    "validate": "npm run format:write && npm run tsc && npm run lint && npm run build",
+    "prepare": "husky install"
+  },
+  "author": "a-ww2-er",
+  "license": "ISC",
+  "devDependencies": {
+    "nx": "20.3.1",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "husky": "^8.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
+}

@@ -1,0 +1,9 @@
+build
+dist
+.next
+.env
+node_modules
+
+/node_modules
+.nx/cache
+.nx/workspace-data
