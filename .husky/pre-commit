@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-
-npm validate
+#husky is used to run scripts before commit .
+#here we're running validate script
+npm run lint-staged
