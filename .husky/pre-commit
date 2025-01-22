@@ -2,4 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 #husky is used to run scripts before commit .
 #here we're running validate script
-npm run lint-staged
+npx lint-staged
