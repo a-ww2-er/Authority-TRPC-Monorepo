@@ -1,0 +1,24 @@
+{
+  "name": "@authority-trpc/trpc-server",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@authority-trpc/db": "^1.0.0",
+    "@authority-trpc/forms": "^1.0.0",
+    "@trpc/server": "^10.45.2",
+    "@types/jsonwebtoken": "^9.0.9",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/uuid": "^10.0.0"
+  }
+}

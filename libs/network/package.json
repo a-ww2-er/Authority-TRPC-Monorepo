@@ -1,0 +1,19 @@
+{
+  "name": "@authority-trpc/network",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "peerDependencies": {
+    "next-auth": "^4.24.11"
+  },
+  "dependencies": {
+    "@authority-trpc/trpc-client": "^1.0.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
